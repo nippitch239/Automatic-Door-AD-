@@ -8,9 +8,9 @@ while True :
     # first value is True if can read, false otherwise
     # second value is value from reading (first value have to be True)
     check, frame = capture.read() #read from camera (fps)
-    cv2.imshow("Output",frame)
+    cv2.imshow("Capture",frame)
 
-    if cv2.waitKey(1) & 0xFF == ord("o") : # break when press "o" on keyboard
+    if cv2.waitKey(1) & 0xFF == ord("e") : # break when press "o" on keyboard
         break
 
 #close window
