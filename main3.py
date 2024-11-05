@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 from inference_sdk import InferenceHTTPClient
 import tempfile
 import os
