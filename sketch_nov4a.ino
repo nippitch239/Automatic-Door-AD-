@@ -11,13 +11,11 @@ void setup() {
 void loop() {
     if (Serial.available()) {
         byte command = Serial.read();
-        if (command == 1) {
-            myServo.write(0);
-        } else if (command == 2) {
+        if (command == 1) and (command == 2) {
             myServo.write(180);
-        }
-        else if (command == 0){
-            myServo.write(120);
+        } 
+        else if (command == 0) {
+            myServo.write(0);
         }
     }
 }
