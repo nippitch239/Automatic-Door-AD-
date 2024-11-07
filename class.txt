@@ -1,5 +1,14 @@
-[0
+[
+0
 1
+2
+3
+4
+5
+6
+7
+8
+9
 10GorGai
 11KhorKhai
 13KhorKhwai
@@ -8,7 +17,6 @@
 17ChorChan
 18ChorChing
 19ChorChang
-2
 21ChorChoe
 22YorYing
 23DorChaDa
@@ -16,7 +24,6 @@
 27ThorPhuThao
 28NorNen
 29DorDek
-3
 30TorTao
 31ThorThung
 32ThorThaHan
@@ -25,7 +32,6 @@
 35BorBaiMai
 37PhorPhueng
 39PhorPan
-4
 40ForFun
 41PhorSamPhao
 42MorMa
@@ -36,15 +42,10 @@
 47SorSala
 48SorRueSi
 49SorSuea
-5
 50HorHeep
 51LorChula
 52OrAng
 53HorNokHook
-6
-7
-8
-9
 AngThong
 Ayutthaya
 Bangkok
@@ -114,4 +115,5 @@ UthaiThani
 Yala
 Yasothon
 zBayTong
-zPhangNga]
+zPhangNga
+]
