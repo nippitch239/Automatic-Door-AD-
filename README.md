@@ -27,7 +27,7 @@ image.py:
 
 1. Install the required libraries:
    ```bash
-   pip install opencv-python inference-sdk pyserial
+   pip install opencv-python inference-sdk pyserial ultralytics
 2. Install all the dependencies with a single command:
    ```bash
    pip install -r requirements.txt

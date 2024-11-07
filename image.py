@@ -8,9 +8,7 @@ folder_path = 'img'
 for image_name in os.listdir(folder_path):
     image_path = os.path.join(folder_path, image_name)
 
-
     img = cv2.imread(image_path)
-    
 
     if img is None:
         print(f"Could not read {image_path}. Skipping.")
