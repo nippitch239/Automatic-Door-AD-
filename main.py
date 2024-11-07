@@ -7,7 +7,7 @@ import serial
 
 CLIENT = InferenceHTTPClient(
     api_url="https://detect.roboflow.com",
-    api_key="lHk0VGbDreHnamfHeH34"
+    api_key="KEY"
 )
 
 ser = serial.Serial('COM3', 9600)
