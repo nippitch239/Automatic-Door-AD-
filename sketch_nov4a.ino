@@ -9,13 +9,12 @@ void setup() {
 }
 
 void loop() {
+    myServo.write(0);
     if (Serial.available()) {
         byte command = Serial.read();
-        if (command == 1) and (command == 2) {
-            myServo.write(180);
-        } 
-        else if (command == 0) {
-            myServo.write(0);
+        if (command == 1) {
+            myServo.write(90);
+            delay(1500);
         }
     }
 }

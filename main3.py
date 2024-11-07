@@ -38,16 +38,11 @@ def main():
             print("Error: Could not read frame.")
             break
         result = process_frame(frame)
-        
         if 'predictions' in result:
             classes_detected = [prediction['class'] for prediction in result['predictions']]
             print("Detected classes:", classes_detected)
-            if "Bangkok" in classes_detected:
+            if {"1","10GorGai", "11KhorKhai", "9", "2", "9","Bangkok"}.issubset(classes_detected):
                 ser.write(bytes([1]))
-            elif "2" in classes_detected:
-                ser.write(bytes([2]))
-            if "" in classes_detected:
-                ser.write(bytes([0]))
     cap.release()
     ser.close()
 
