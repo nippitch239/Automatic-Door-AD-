@@ -1,3 +1,4 @@
 opencv-python
 inference-sdk
 pyserial
+ultralytics
