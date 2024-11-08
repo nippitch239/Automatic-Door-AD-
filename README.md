@@ -5,7 +5,7 @@ This project uses a computer vision model to detect objects in real-time from a 
 ## Features
 main.py:
 - Detects objects in real-time using Roboflow's inference API.
-- Controls an Arduino based on specific object detections
+- Controls an Arduino based on specific object detections.
 - Supports threaded control for real-time input handling.
 image.py:
 - Image Processing: Processes multiple images from a folder and applies object detection to each one.
