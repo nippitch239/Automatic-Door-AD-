@@ -20,6 +20,7 @@ def process_frame(frame):
         cv2.imwrite(temp_file.name, frame)
         temp_file_path = temp_file.name
     result = CLIENT.infer(temp_file_path, model_id="thai-lnpr-c6prf/3")
+    
     os.remove(temp_file_path)
     return result
 

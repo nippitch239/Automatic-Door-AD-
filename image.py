@@ -22,3 +22,4 @@ for image_name in os.listdir(folder_path):
             break
 
 cv2.destroyAllWindows()
+
